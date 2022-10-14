@@ -1,5 +1,5 @@
 ---
-{"date":"2022-04-02","time":"19:41","tags":[],"cssclass":null,"dg-publish":true,"dg-class":"program","permalink":"/2-areas/programming/cpp/xtensor-tips/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true}
+{"date":"2022-04-02","time":"19:41","tags":[],"cssclass":null,"dg-publish":true,"dg-class":"program","dg-show-local-graph":true,"permalink":"/2-areas/programming/cpp/xtensor-tips/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true}
 ---
 
 ## Installation
@@ -114,7 +114,7 @@ It takes about $0.00096$ s for the matrix with size $100 \times 100$
 It takes about $0.049$ s for the matrix with size $1000 \times 1000$
 It takes about $24.2$ s for the matrix with size $10000 \times 10000$
 
-While the ==numpy== version takes  $0.063$ s for the matrix with size $1000 \times 1000$, and $23.4$s for  the matrix with size $10000 \times 10000$.
+While the ==numpy== version takes  $0.063$ s for the matrix with size $1000 \times 1000$, and $23.4$ s for  the matrix with size $10000 \times 10000$.
 
 ### xt :: view
 The codes are referenced from [Roman Poya](https://romanpoya.medium.com/a-look-at-the-performance-of-expression-templates-in-c-eigen-vs-blaze-vs-fastor-vs-armadillo-vs-2474ed38d982)
