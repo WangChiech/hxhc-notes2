@@ -1,5 +1,5 @@
 ---
-{"date":"2022-04-01","time":"23:10","cssclass":"academia","dg-publish":true,"dg-class":"program","prettified date updated":"2022-04-03 00:03","permalink":"/2-areas/programming/cpp/eigen-tips/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true}
+{"date":"2022-04-01","time":"23:10","cssclass":"academia","dg-publish":true,"dg-class":"program","dg-show-local-graph":true,"prettified date updated":"2022-04-03 00:03","permalink":"/2-areas/programming/cpp/eigen-tips/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true}
 ---
 
 
@@ -222,7 +222,6 @@ It takes about $0.0017$ s for the matrix with size $100 \times 100$
 It takes about $0.023$ s for the matrix with size $1000 \times 1000$
 It takes about $9.89$ s for the matrix with size $10000 \times 10000$
 
-
 ## additional tips
 1. Use EigenRand to generate normal distributions in loops
 ```cpp
@@ -234,4 +233,3 @@ for (int i = 0; i < 10; ++i) {
     Eigen::ArrayXd s2 = norm_gen.generate<Eigen::ArrayXd>(20, 1, urng);
 }
 ``` 
-
