@@ -1,5 +1,5 @@
 ---
-{"date":"2022-09-30","time":"10:48","tags":[],"cssclass":null,"dg-publish":true,"dg-class":"algorithm","dg-show-local-graph":true,"permalink":"/2-areas/reading/data-driven-fdd-for-complex-systems/data-driven-fault-detection-and-diagnosis-for-complex-system/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true}
+{"date":"2022-09-30","time":"10:48","tags":[],"cssclass":null,"dg-publish":true,"dg-class":"algorithm","dg-show-local-graph":true,"permalink":"/2-areas/reading/data-driven-fdd-for-complex-systems/data-driven-fault-detection-and-diagnosis-for-complex-system/","dgHomeLink":false,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true}
 ---
 
 
