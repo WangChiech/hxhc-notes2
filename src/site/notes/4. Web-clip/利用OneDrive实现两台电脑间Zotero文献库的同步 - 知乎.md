@@ -53,11 +53,7 @@ Mklink /j "C:\Users\用户名\Zotero\storage" "C:\Users\用户名\OneDrive\Zoter
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-<div class="markdown-embed-title">
 
-
-
-</div>
 
 
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
