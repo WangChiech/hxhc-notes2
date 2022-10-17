@@ -75,9 +75,9 @@ arma::mat readCSV(const std::string &filename, const std::string &delimeter = ",
 }
 ```
 
----
-## 2. The same random number in openmmp loop
-As a workaround, to generate a set of 100 random values I suggest to avoid calling randn () to obtain each value, and instead use randn (100) to obtain 100 values is one hit:
+
+## 2. The same random number in openmp loop
+As a workaround, to generate a set of 100 random values I suggest to avoid calling `randn()`  to obtain each value, and instead use randn (100) to obtain 100 values is one hit:
 
 ``` cpp
 vec X = randn(100);
@@ -88,7 +88,6 @@ If the requested number of random values exceeds a threshold (>= 1024) and openm
  If you still need to use randn() to obtain each random value individually within a parallel for loop, you could try manually setting the seed for each thread beforehand. Use the `arma_rng::set_seed(value)` function.
 
 The internal code for obtaining an _individual_ randn value (not a _set_ of randn values) is here: [https://gitlab.com/conradsnicta/armadillo-code/-/blob/10.7.x/include/armadillo_bits/arma_rng.hpp#L449-470](https://gitlab.com/conradsnicta/armadillo-code/-/blob/10.7.x/include/armadillo_bits/arma_rng.hpp#L449-470) In this code, `mt19937_64_instance` comes from libarmadillo.so (the armadillo runtime library), defined here: [https://gitlab.com/conradsnicta/armadillo-code/-/blob/10.7.x/src/wrapper1.cpp#L34-47](https://gitlab.com/conradsnicta/armadillo-code/-/blob/10.7.x/src/wrapper1.cpp#L34-47) `mt19937_64_instance` is defined as a thread_local object. Due to this definition, each instance of `mt19937_64_instance` has the same seed for each thread by default. The seed can't be random, as that would defeat reproducibility (ie. each time a user program is executed, it should generate the same results).
-
 
 ## Performance Test
 ```cpp
