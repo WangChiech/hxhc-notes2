@@ -1,5 +1,5 @@
 ---
-{"date":"2022-03-31","time":"22:27","tags":["cpp"],"dg-publish":true,"dg-class":"program","permalink":"/2-areas/programming/cpp/armadillo-tips/","dgHomeLink":false,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true}
+{"date":"2022-03-31","time":"22:27","tags":["cpp"],"dg-publish":true,"dg-class":"program","permalink":"/2-areas/programming/cpp/armadillo-tips/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":true}
 ---
 
 
