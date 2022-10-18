@@ -1,5 +1,5 @@
 ---
-{"date":"2022-04-01","time":"23:10","cssclass":"academia","dg-publish":true,"dg-class":"program","dg-show-local-graph":true,"prettified date updated":"2022-04-03 00:03","permalink":"/2-areas/programming/cpp/eigen-tips/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":true}
+{"date":"2022-04-01","time":"23:10","cssclass":"academia","dg-publish":true,"dg-class":"program","dg-show-local-graph":true,"prettified date updated":"2022-04-03 00:03","permalink":"/2-areas/programming/cpp/eigen-tips/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":false}
 ---
 
 
