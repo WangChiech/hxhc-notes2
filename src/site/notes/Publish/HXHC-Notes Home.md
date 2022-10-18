@@ -1,5 +1,5 @@
 ---
-{"dg-home":true,"dg-publish":true,"dg_permalink":"hxhc-notes","tags":["gardenEntry"],"permalink":"/publish/hxhc-notes-home/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":true}
+{"dg-home":true,"dg-publish":true,"dg_permalink":"hxhc-notes","tags":["gardenEntry"],"permalink":"/publish/hxhc-notes-home/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":false}
 ---
 
 
