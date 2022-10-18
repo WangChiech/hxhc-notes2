@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"dg-class":"software","permalink":"/4-web-clip/one-drive-zotero/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":true}
+{"dg-home":false,"dg-publish":true,"dg-class":"software","permalink":"/4-web-clip/one-drive-zotero/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":false}
 ---
 
 
