@@ -1,5 +1,5 @@
 ---
-{"date":"2022-09-30","time":"10:54","tags":[],"cssclass":null,"dg-publish":true,"dg-class":"algorithm","dg-show-local-graph":true,"permalink":"/2-areas/reading/data-driven-fdd-for-complex-systems/multiblock-modeling/","dgHomeLink":false,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true}
+{"date":"2022-09-30","time":"10:54","tags":[],"cssclass":null,"dg-publish":true,"dg-class":"algorithm","dg-show-local-graph":true,"permalink":"/2-areas/reading/data-driven-fdd-for-complex-systems/multiblock-modeling/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":true}
 ---
 
 
@@ -35,6 +35,6 @@ According to process flow diagram (PFD) and piping and instrumentation diagram (
 3. Knowledge based sparse projection matrix
     Construct a projection matrix based on the grouping and tendency result.
 4. [[2. Areas/Reading/Data driven FDD for complex systems/Sparse modeling#4 Fault Detection and Diagnosis Based on Sparse PCA and Two-Level Contribution Plots|Two level contribution plot]]
-5. 
+
 ## Cases
-An industrial scale fed-batch fermentation process carried out in a 100000L biocreator. [link](https://www.sciencedirect.com/science/article/pii/S0168165614009377)
+An industrial scale fed-batch fermentation process carried out in a 100000L bioreactors. [link](https://www.sciencedirect.com/science/article/pii/S0168165614009377)
