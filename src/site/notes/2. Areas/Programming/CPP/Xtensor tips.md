@@ -1,18 +1,18 @@
 ---
-{"date":"2022-04-02","time":"19:41","tags":[],"cssclass":null,"dg-publish":true,"dg-class":"program","dg-show-local-graph":true,"permalink":"/2-areas/programming/cpp/xtensor-tips/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":false}
+{"dg-publish":true,"permalink":"/2-areas/programming/cpp/xtensor-tips/","dgShowLocalGraph":true}
 ---
 
-## Installation
-[[2. Areas/Programming/CPP/How to install Xtensor|2. Areas/Programming/CPP/How to install Xtensor]]
+## 1. Installation
+[[2. Areas/Programming/CPP/How to install Xtensor\|2. Areas/Programming/CPP/How to install Xtensor]]
 
-## Compile
+## 2. Compile
 ```shell
 > g++ xtensor_performance.cpp -o ./output/xtensor_performance -m64 -I ./libs  -I"${MKLROOT}/include"  -L${MKLROOT}/lib -Wl,-rpath=${MKLROOT}/lib -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core -lgomp -lpthread -lm -ldl  -O3
 ```
-where `${MKLROOT}` is referred to the installation location. See [[2. Areas/Programming/CPP/Eigen tips#2 Install Intel OneMKL using conda|eigen tips]] for details.
+where `${MKLROOT}` is referred to the installation location. See [[2. Areas/Programming/CPP/Eigen tips#2 Install Intel OneMKL using conda\|eigen tips]] for details.
 
-## Performance test
-### Matrix multiplication
+## 3. Performance test
+### 3.1. Matrix multiplication
 ```cpp
 #define XTENSOR_USE_XSIMD
 #define XTENSOR_USE_OPENMP
@@ -62,7 +62,7 @@ int main()
 ```
 It takes about $10.5$ s for the matrix with size $10000 \times 10000$.
 
-### Eigenvalue Decomposition
+### 3.2. Eigenvalue Decomposition
 ```cpp
 std::vector<double> RunEigDecompTest(int size = 100, int loops = 10)
 {
@@ -92,7 +92,7 @@ It takes about $22.6$ s for the matrix with size $4000 \times 4000$.
 > It takes about $0.077$ s for the matrix with size $1000 \times 1000$.
 > It takes about $4.8$ s for the matrix with size $4000 \times 4000$.
 
-### QR factorization
+### 3.3. QR factorization
 ```cpp
 std::vector<double> RunQRTest(int size = 100, int loops = 10)
 {
@@ -116,7 +116,7 @@ It takes about $24.2$ s for the matrix with size $10000 \times 10000$
 
 While the ==numpy== version takes  $0.063$ s for the matrix with size $1000 \times 1000$, and $23.4$ s for  the matrix with size $10000 \times 10000$.
 
-### xt :: view
+### 3.4. xt :: view
 The codes are referenced from [Roman Poya](https://romanpoya.medium.com/a-look-at-the-performance-of-expression-templates-in-c-eigen-vs-blaze-vs-fastor-vs-armadillo-vs-2474ed38d982)
 ```cpp
 template <typename T>
