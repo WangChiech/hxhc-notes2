@@ -1,5 +1,5 @@
 ---
-{"date":"2022-09-26","time":"16:17","tags":[],"cssclass":null,"dg-publish":true,"dg-class":"program","permalink":"/2-areas/programming/cpp/cpp-pybind11/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":false}
+{"dg-publish":true,"permalink":"/2-areas/programming/cpp/cpp-pybind11/"}
 ---
 
 ## 1. 封装 CUTest
