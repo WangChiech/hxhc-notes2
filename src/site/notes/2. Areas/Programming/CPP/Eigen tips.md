@@ -1,5 +1,5 @@
 ---
-{"date":"2022-04-01","time":"23:10","cssclass":"academia","dg-publish":true,"dg-class":"program","dg-show-local-graph":true,"prettified date updated":"2022-04-03 00:03","permalink":"/2-areas/programming/cpp/eigen-tips/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":false}
+{"dg-publish":true,"permalink":"/2-areas/programming/cpp/eigen-tips/","dgShowLocalGraph":true}
 ---
 
 
@@ -37,7 +37,7 @@ It takes about $9.4$ s for the matrix with size $10000 \times 10000$.
 1. Use  `mamba install -c intel mkl-devel==2022.0.1` to install the mkl library with the specific version. And other dependencies will also be installed.
 
 | Lib           | Version             | Size   |
-| :------------ | :------------------ | :----- |
+| :------------------------ | :-------------------------------- | :---------------- |
 | intel-openmp  | 2022.0.1 intel_3633 | 8 MB   |
 | mkl           | 2022.0.1 intel_117  | 199 MB |
 | mkl-devel     | 2022.0.1 intel_117  | 15 KB  |
@@ -116,7 +116,8 @@ int main(){
 }
 ```
 
-Linked to MKL, it takes about $14$ ms for the matrix with size  $1000\times 1000$，and takes about $11$ s for the matrix with size $10000 \times 10000$. While linked to OpenBLAS, it takes about 9.4s.
+Linked to MKL, it takes about $14$ ms for the matrix with size  $1000\times 1000$，and takes about $11$ s for the matrix with size $10000 \times 10000$. While linked to OpenBLAS, it takes about 9.4s. 
+
 
 ### 3.3 Eigenvalue decomposition
 
@@ -148,9 +149,9 @@ Linked to MKL, it takes about $8.5$ s for the matrix with size  $4000\times 4000
 
 > [!note] EigenSolvers
 > 
-> Note that there are different EigenSolvers implemented by Eigen. In the code above, the `SelfAdjointEigenSolver` is used for Hermitian (self-adjoint) matrix, which includes the covariance matrix in real applications. While the `SelfAdjointEigenSolver` is usually very fast. The corresponding versions of `SelfAdjointEigenSolver` in Numpy and Xtensor are `np.linalg.eigh()` and `xt::linalg::eigh()`, respectively. But the Eige implementation is slower than [[2. Areas/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
+> Note that there are different EigenSolvers implemented by Eigen. In the code above, the `SelfAdjointEigenSolver` is used for Hermitian (self-adjoint) matrix, which includes the covariance matrix in real applications. While the `SelfAdjointEigenSolver` is usually very fast. The corresponding versions of `SelfAdjointEigenSolver` in Numpy and Xtensor are `np.linalg.eigh()` and `xt::linalg::eigh()`, respectively. But the Eige implementation is slower than [[2. Areas/Programming/CPP/Xtensor tips#Eigenvalue Decomposition\|Xtensor]].
 > 
-> However, for a general EigenSolver (`EigenSolver`), the speed is slower. For $500\times 500$, the time is $0.10$ s; For $1000\times 1000$, the time is $0.63$ s; For $4000\times 4000$, the time is $46$ s, which is slower than Numpy and [[2. Areas/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
+> However, for a general EigenSolver (`EigenSolver`), the speed is slower. For $500\times 500$, the time is $0.10$ s; For $1000\times 1000$, the time is $0.63$ s; For $4000\times 4000$, the time is $46$ s, which is slower than Numpy and [[2. Areas/Programming/CPP/Xtensor tips#Eigenvalue Decomposition\|Xtensor]].
 
 ### 3.4 Slice view
 The codes are referenced from [Roman Poya](https://romanpoya.medium.com/a-look-at-the-performance-of-expression-templates-in-c-eigen-vs-blaze-vs-fastor-vs-armadillo-vs-2474ed38d982)
@@ -192,7 +193,7 @@ It takes about $2.6\times 10^{-5}$ s for the matrix with size $100 \times 100$
 It takes about $7.6\times 10^{-4}$ s for the matrix with size $500 \times 500$
 It takes about $3.3\times 10^{-3}$ s for the matrix with size $1000 \times 1000$
 
-The results shows that `Eigen` performs much faster than [[2. Areas/Programming/CPP/Xtensor tips#xt view|Xtensor]].
+The results shows that `Eigen` performs much faster than [[2. Areas/Programming/CPP/Xtensor tips#xt view\|Xtensor]].
 
 ### 3.5 QR factorization 
 Note that Eigen provides several QR methods, including HouseholderQR, colPivHouseholderQR, and fullPivHouseholderQR. The first one runs the fastest, but the numerical stability is the worst. And the last one is the slowest, but the accuracy is guaranteed. Generally, we can choose the colPivHouseholderQR for a trade-off.
