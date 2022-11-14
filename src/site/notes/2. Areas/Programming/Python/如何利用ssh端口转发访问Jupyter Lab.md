@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"dg-class":"software","permalink":"/2-areas/programming/python/ssh-jupyter-lab/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":false}
+{"dg-publish":true,"permalink":"/2-areas/programming/python/ssh-jupyter-lab/"}
 ---
 
 
