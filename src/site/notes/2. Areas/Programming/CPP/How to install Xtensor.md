@@ -1,5 +1,5 @@
 ---
-{"date":"2022-03-31","time":"22:27","tags":["cpp"],"dg-publish":true,"dg-class":"program","dg-show-local-graph":true,"permalink":"/2-areas/programming/cpp/how-to-install-xtensor/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":false}
+{"dg-publish":true,"permalink":"/2-areas/programming/cpp/how-to-install-xtensor/","dgShowLocalGraph":true}
 ---
 
 
@@ -134,6 +134,6 @@ sse2 Statistics:
 
 ## 3. 下载头文件
 `Xtensor`, `Xtensor-blas` 和 `xtensor-fftw` 以头文件形式进行使用
-[[2. Areas/Programming/CPP/Xtensor tips#Performance test|例子]]
+[[2. Areas/Programming/CPP/Xtensor tips#Performance test\|例子]]
 
 
