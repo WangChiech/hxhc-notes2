@@ -1,9 +1,9 @@
 ---
-{"date":"2022-09-30","time":"10:54","tags":[],"cssclass":null,"dg-publish":true,"dg-class":"algorithm","dg-show-local-graph":true,"permalink":"/2-areas/reading/data-driven-fdd-for-complex-systems/multiblock-modeling/","dgHomeLink":true,"dgPassFrontmatter":true,"dgShowLocalGraph":true,"dgShowBacklinks":true,"dgShowInlineTitle":false}
+{"dg-publish":true,"permalink":"/2-areas/reading/data-driven-fdd-for-complex-systems/multiblock-modeling/","dgShowLocalGraph":true}
 ---
 
 
-[[2. Areas/Reading/Data driven FDD for complex systems/Sparse modeling#5. Fault detection and diagnosis of dynamic processes using weighted dynamic decentralized PCA approach|Fault detection and diagnosis of dynamic processes using weighted dynamic decentralized PCA approach]]
+[[2. Areas/Reading/Data driven FDD for complex systems/Sparse modeling#5. Fault detection and diagnosis of dynamic processes using weighted dynamic decentralized PCA approach\|Fault detection and diagnosis of dynamic processes using weighted dynamic decentralized PCA approach]]
 
 # 9. Decentralized and Dynamic Fault Detection Using PCA and Bayesian Inference
 #mutliblok #PCA
@@ -30,11 +30,11 @@ According to process flow diagram (PFD) and piping and instrumentation diagram (
      - control correlation
      - reaction and location correlation 
      - type correlation
-     - similarity driven [[2. Areas/Reading/Data driven FDD for complex systems/Data driven fault detection and diagnosis for complex system| variable grouping technique]]
+     - similarity driven [[2. Areas/Reading/Data driven FDD for complex systems/Data driven fault detection and diagnosis for complex system\| variable grouping technique]]
 2. Variable correlation tendency analysis to analyze the variables in the same group are positively or negatively correlated
 3. Knowledge based sparse projection matrix
     Construct a projection matrix based on the grouping and tendency result.
-4. [[2. Areas/Reading/Data driven FDD for complex systems/Sparse modeling#4 Fault Detection and Diagnosis Based on Sparse PCA and Two-Level Contribution Plots|Two level contribution plot]]
+4. [[2. Areas/Reading/Data driven FDD for complex systems/Sparse modeling#4 Fault Detection and Diagnosis Based on Sparse PCA and Two-Level Contribution Plots\|Two level contribution plot]]
 
 ## Cases
 An industrial scale fed-batch fermentation process carried out in a 100000L bioreactors. [link](https://www.sciencedirect.com/science/article/pii/S0168165614009377)
