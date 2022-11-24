@@ -118,7 +118,6 @@ int main(){
 
 Linked to MKL, it takes about $14$ ms for the matrix with size  $1000\times 1000$，and takes about $11$ s for the matrix with size $10000 \times 10000$. While linked to OpenBLAS, it takes about 9.4s. 
 
-
 ### 3.3 Eigenvalue decomposition
 
 ```cpp
