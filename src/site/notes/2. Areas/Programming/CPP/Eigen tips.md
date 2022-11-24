@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2-areas/programming/cpp/eigen-tips/","dgShowLocalGraph":true}
+{"date":"2022-04-01","time":"23:10","cssclass":"academia","dg-publish":true,"dg-class":"program","dg-show-local-graph":true,"permalink":"/2-areas/programming/cpp/eigen-tips/","dgShowLocalGraph":true,"dgPassFrontmatter":true}
 ---
 
 
