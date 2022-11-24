@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/publish/hxhc-notes-home/","tags":["gardenEntry"]}
+{"dg-home":true,"dg-publish":true,"dg_permalink":"hxhc-notes","tags":["gardenEntry"],"permalink":"/publish/hxhc-notes-home/","dgPassFrontmatter":true}
 ---
 
 
