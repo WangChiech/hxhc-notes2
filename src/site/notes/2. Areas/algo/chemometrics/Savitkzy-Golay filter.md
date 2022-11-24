@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2-areas/algo/chemometrics/savitkzy-golay-filter/"}
+{"dg-home":false,"dg-publish":true,"dg-permlink":"SG-filter","dg-class":"program","permalink":"/2-areas/algo/chemometrics/savitkzy-golay-filter/","dgPassFrontmatter":true}
 ---
 
 
