@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2-areas/programming/cpp/armadillo-tips/"}
+{"date":"2022-03-31","time":"22:27","tags":["cpp"],"dg-publish":true,"dg-class":"program","permalink":"/2-areas/programming/cpp/armadillo-tips/","dgPassFrontmatter":true}
 ---
 
 
