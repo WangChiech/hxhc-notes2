@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/2-areas/programming/cpp/xtensor-tips/","dgShowLocalGraph":true}
+{"date":"2022-04-02","time":"19:41","tags":[],"cssclass":null,"dg-publish":true,"dg-class":"program","dg-show-local-graph":true,"permalink":"/2-areas/programming/cpp/xtensor-tips/","dgShowLocalGraph":true,"dgPassFrontmatter":true}
 ---
 
 ## 1. Installation
