@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4-web-clip/one-drive-zotero/"}
+{"dg-home":false,"dg-publish":true,"dg-class":"software","permalink":"/4-web-clip/one-drive-zotero/","dgPassFrontmatter":true}
 ---
 
 
