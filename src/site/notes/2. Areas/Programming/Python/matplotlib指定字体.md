@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"matplotlib-font","permalink":"/matplotlib-font/"}
+{"date":"2022-04-14","time":"16:44","tags":["python"],"cssclass":null,"dg-publish":true,"dg-permalink":"matplotlib-font","dg-class":"program","permalink":"/matplotlib-font/","dgPassFrontmatter":true}
 ---
 
 
