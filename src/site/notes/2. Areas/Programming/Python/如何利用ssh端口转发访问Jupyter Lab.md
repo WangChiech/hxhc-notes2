@@ -1,9 +1,7 @@
 ---
-{"dg-home":false,"dg-publish":true,"dg-class":"software","permalink":"/2-areas/programming/python/ssh-jupyter-lab/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/2-areas/programming/python/ssh-jupyter-lab/"}
 ---
 
-
-# 如何利用 ssh 端口转发访问 Jupyter Lab
 
 现有一台 GPU 服务器（node），与另一服务器（master）相连。GPU 服务器未接入网络，但 master 接入网络，此时可以采用两次 ssh 端口转发来搭建 Jupyter lab.
 
