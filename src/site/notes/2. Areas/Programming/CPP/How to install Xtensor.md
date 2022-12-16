@@ -1,5 +1,5 @@
 ---
-{"date":"2022-03-31","time":"22:27","tags":["cpp"],"dg-publish":true,"dg-class":"program","dg-show-local-graph":true,"permalink":"/2-areas/programming/cpp/how-to-install-xtensor/","dgShowLocalGraph":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/2-areas/programming/cpp/how-to-install-xtensor/","dgShowLocalGraph":true}
 ---
 
 
