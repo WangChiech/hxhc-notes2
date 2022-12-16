@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-class":"program","permalink":"/2-areas/programming/cpp/clang-tidy-config-file/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/2-areas/programming/cpp/clang-tidy-config-file/"}
 ---
 
 
