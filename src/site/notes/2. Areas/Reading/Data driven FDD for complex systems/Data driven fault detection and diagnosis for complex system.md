@@ -1,10 +1,10 @@
 ---
-{"date":"2022-09-30","time":"10:48","tags":[],"cssclass":null,"dg-publish":true,"dg-class":"algorithm","dg-show-local-graph":true,"permalink":"/2-areas/reading/data-driven-fdd-for-complex-systems/data-driven-fault-detection-and-diagnosis-for-complex-system/","dgShowLocalGraph":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/2-areas/reading/data-driven-fdd-for-complex-systems/data-driven-fault-detection-and-diagnosis-for-complex-system/","dgShowLocalGraph":true}
 ---
 
 
 Fault detection and diagnosis (FDD) is an important task in industry manufacturing. Typically, there are 3 ways to realize FDD: knowledge-based, data driven and hybrid. Nowadays, with the access to large volume of data, data driven FDD becomes more and more promising. Below are some aspects and discussions of data driven FDD.
-
+ 
 ## Problems
 
 Multimode, multiscale, multistage
