@@ -1,5 +1,5 @@
 ---
-{"date":"2022-09-30","time":"10:53","tags":[],"cssclass":null,"dg-publish":true,"dg-class":"algorithm","dg-show-local-graph":true,"permalink":"/2-areas/reading/data-driven-fdd-for-complex-systems/sparse-modeling/","dgShowLocalGraph":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/2-areas/reading/data-driven-fdd-for-complex-systems/sparse-modeling/","dgShowLocalGraph":true}
 ---
 
 
