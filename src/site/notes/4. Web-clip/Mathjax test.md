@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-class":"program","permalink":"/4-web-clip/mathjax-test/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/4-web-clip/mathjax-test/"}
 ---
 
 
