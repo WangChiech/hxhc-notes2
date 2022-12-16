@@ -1,5 +1,5 @@
 ---
-{"dg-home":true,"dg-publish":true,"dg_permalink":"hxhc-notes","tags":["gardenEntry"],"permalink":"/publish/hxhc-notes-home/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/publish/hxhc-notes-home/","tags":["gardenEntry"]}
 ---
 
 
@@ -8,12 +8,13 @@
 ## Programming Notes
 - [[2. Areas/algo/chemometrics/Savitkzy-Golay filter\|Savitkzy-Golay filter]]
 - [[2. Areas/Programming/CPP/Armadillo tips\|Armadillo tips]]
-- [[2. Areas/Programming/CPP/Eigen tips\|Eigen tips]]
+- [[2. Areas/Programming/CPP/clang-format config file\|clang-format config file]]
 - [[2. Areas/Programming/CPP/clang-tidy config file\|clang-tidy config file]]
+- [[2. Areas/Programming/CPP/Eigen tips\|Eigen tips]]
 - [[2. Areas/Programming/CPP/How to install Xtensor\|How to install Xtensor]]
 - [[2. Areas/Programming/CPP/Xtensor tips\|Xtensor tips]]
-- [[2. Areas/Programming/CPP/clang-format config file\|clang-format config file]]
 - [[2. Areas/Programming/Python/matplotlib指定字体\|matplotlib指定字体]]
+- [[2. Areas/Programming/Python/matplotlib demos\|matplotlib demos]]
 - [[4. Web-clip/Mathjax test\|Mathjax test]]
 
 ## Software Notes
