@@ -3,6 +3,8 @@
 ---
 
 
+Tips are collected from stackoverflow.
+
 ## 1. CSV file loading 
 1. The armadillo documentation specifies
 
