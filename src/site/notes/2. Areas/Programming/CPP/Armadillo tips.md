@@ -3,7 +3,7 @@
 ---
 
 
-Tips are collected from stackoverflow.
+Tips are collected from Stackoverflow.
 
 ## 1. CSV file loading 
 1. The armadillo documentation specifies
